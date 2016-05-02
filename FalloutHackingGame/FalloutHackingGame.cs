@@ -28,11 +28,8 @@ namespace FalloutHackingGame
 
         public FalloutHackingGame(int difficulty)
         {
-            //this.difficulty = difficulty;
-
             switch (difficulty)
             {
-                default:
                 case 1:
                     numWords = random.Next(5, 7);
                     charactersPerWord = random.Next(4, 6);
